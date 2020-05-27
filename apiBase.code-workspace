@@ -4,5 +4,14 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"sqltools.connections": [
+			{
+				"database": "${workspaceFolder:apiBase}/src/database/adonis.sqlite",
+				"dialect": "SQLite",
+				"name": "adonisLocal"
+			}
+		],
+		"sqltools.useNodeRuntime": true
+	}
 }
