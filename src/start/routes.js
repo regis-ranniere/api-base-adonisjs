@@ -20,4 +20,5 @@ Route.get('/', () => {
   return { greeting: 'Hello world in JSON' }
 })
 
-Route.post('/token', 'TokenController.store');
+Route.post('/token', 'TokenController.store')
+Route.post('/user/forgot/pass', 'UserController.forgotpass')
